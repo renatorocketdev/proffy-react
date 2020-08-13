@@ -1,9 +1,3 @@
-#page-teacher-list {
-  width: 100vw;
-  height: 100vh;
-  max-width: 100%;
-}
-
 .page-header {
   display: flex;
   flex-direction: column;
@@ -42,9 +36,16 @@
 }
 
 .page-header .header-content strong {
-  font: 700 2.6rem Archivo;
-  line-height: 0.6rem;
+  max-width: 30rem;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
   color: var(--color-title-in-primary);
+}
+
+.page-header .header-content p {
+  line-height: 2.6rem;
+  color: var(--color-text-in-primary);
+  margin-top: 2.4rem;
 }
 
 @media (min-width: 700px) {
